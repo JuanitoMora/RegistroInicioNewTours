@@ -4,3 +4,4 @@ Hello, this project is the result of doing exercises in the Selenium-Java Automa
 
 It consists, a person registers on the portal and then logs in to the Guru99 page with New Tours
 
+No content layout model, just folders and files
