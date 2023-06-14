@@ -1,0 +1,21 @@
+
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.3.0'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.slf4j:slf4j-api:1.7.5'
+    testImplementation 'org.slf4j:slf4j-simple:1.7.5'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    //useJUnitPlatform()
+}
